@@ -1,0 +1,21 @@
+# Core dependencies
+unstructured==0.15.13
+python-dotenv
+pillow
+opencv-python
+matplotlib
+numpy
+
+# LangChain (newer versions)
+langchain>=0.1.0
+langchain-openai
+langchain-core
+
+# Transformers for LayoutLM
+transformers
+torch
+
+# PDF support (fix pdfminer conflict)
+pdfminer.six==20231228
+pdf2image
+pytesseract
